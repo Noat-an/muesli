@@ -1,0 +1,6 @@
+dag_id: 'dict_city'
+schedule_interval: '@daily'
+source: 'gp'
+target: 'clickhouse'
+catchup: False
+input: 198

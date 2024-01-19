@@ -11,6 +11,7 @@ pandas = "^2.1.4"
 requests = "^2.31.0"
 matplotlib = "^3.8.2"
 pyarrow = "^14.0.2"
+apache-airflow = "^2.8.0"
 
 
 [tool.poetry.group.dev.dependencies]
