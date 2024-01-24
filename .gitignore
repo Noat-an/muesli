@@ -1,3 +1,7 @@
 *.csv
 *.pyc
+*.lock
 __pycache__
+ResLib
+postgreSQL
+AsyncIO

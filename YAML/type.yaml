@@ -1,0 +1,26 @@
+text: !!str 2022-01-16
+
+numbers: !!set
+  ? 5
+  ? 8
+  ? 13
+
+image: !!binary
+  R0lGODdhCAAIAPAAAAIGAfr4+SwAA
+  AAACAAIAAACDIyPeWCsClxDMsZ3CgA7
+
+pair: !!python/tuple
+  - black
+  - white
+
+center_at: !!python/complex 3.14+2.72j
+
+person: !!python/object/apply:model.Person
+  - age: 42
+  - first_name: John
+  - last_name: Doe
+
+person2: !!python/object:model.Person
+  age: 15
+  first_name: Ann
+  last_name: Doe

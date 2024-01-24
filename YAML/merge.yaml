@@ -1,0 +1,12 @@
+
+shape: &shape
+  color: blue
+
+square: &square
+  a: 5
+
+rectangle:
+  << : *shape
+  << : *square
+  b: 3
+  color: green

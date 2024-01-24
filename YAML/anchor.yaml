@@ -1,0 +1,25 @@
+recursive: &cycle [*cycle]
+
+exercises:
+  - muscles: &push-up
+      - pectoral
+      - triceps
+      - biceps
+  - muscles: &squat
+      - glutes
+      - quadriceps
+      - hamstrings
+  - muscles: &plank
+      - abs
+      - core
+      - shoulders
+
+schedule:
+  monday:
+    - *push-up
+    - *squat
+  tuesday:
+    - *plank
+  wednesday:
+    - *push-up
+    - *plank
