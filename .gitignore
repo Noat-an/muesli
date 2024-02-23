@@ -5,3 +5,4 @@ __pycache__
 ResLib
 postgreSQL
 AsyncIO
+poetry.lock
